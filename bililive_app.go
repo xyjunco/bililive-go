@@ -10,16 +10,16 @@ import (
 
 	"github.com/alecthomas/kingpin"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/configs"
-	"github.com/hr3lxphr6j/bililive-go/src/consts"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/events"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/utils"
-	"github.com/hr3lxphr6j/bililive-go/src/listeners"
-	"github.com/hr3lxphr6j/bililive-go/src/log"
-	"github.com/hr3lxphr6j/bililive-go/src/recorders"
-	"github.com/hr3lxphr6j/bililive-go/src/servers"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/configs"
+	"github.com/xyjunco/bililive-go/src/consts"
+	"github.com/xyjunco/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/lib/events"
+	"github.com/xyjunco/bililive-go/src/lib/utils"
+	"github.com/xyjunco/bililive-go/src/listeners"
+	"github.com/xyjunco/bililive-go/src/log"
+	"github.com/xyjunco/bililive-go/src/recorders"
+	"github.com/xyjunco/bililive-go/src/servers"
 )
 
 var (

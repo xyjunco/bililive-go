@@ -3,7 +3,7 @@ package events
 import (
 	"context"
 
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/instance"
 )
 
 func NewIEventDispatcher(ctx context.Context) IEventDispatcher {

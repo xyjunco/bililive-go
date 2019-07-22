@@ -3,9 +3,9 @@ package instance
 import (
 	"sync"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/configs"
-	"github.com/hr3lxphr6j/bililive-go/src/interfaces"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/configs"
+	"github.com/xyjunco/bililive-go/src/interfaces"
 )
 
 type Instance struct {

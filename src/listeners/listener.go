@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
-	"github.com/hr3lxphr6j/bililive-go/src/interfaces"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/events"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/interfaces"
+	"github.com/xyjunco/bililive-go/src/lib/events"
 )
 
 func NewListener(ctx context.Context, live api.Live) *Listener {

@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/hr3lxphr6j/bililive-go/src/lib/reader"
+	"github.com/xyjunco/bililive-go/src/lib/reader"
 )
 
 const (

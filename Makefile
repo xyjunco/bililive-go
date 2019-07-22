@@ -1,9 +1,9 @@
 BIN_PATH=./bin
-BIN_NAME=bililive-go
+BIN_NAME=live_fetcher
 VERSION=$(shell git describe --tags --always)
 BUILD_TIME=$(shell date '+%Y-%m-%d_%H:%M:%S')
 GIT_HASH=$(shell git rev-parse HEAD)
-CONSTS_PATH=github.com/hr3lxphr6j/bililive-go/src/consts
+CONSTS_PATH=github.com/xyjunco/bililive-go/src/consts
 LD_FLAGS=-ldflags '-s -w -X ${CONSTS_PATH}.BuildTime=${BUILD_TIME} -X ${CONSTS_PATH}.AppVersion=${VERSION} -X ${CONSTS_PATH}.GitHash=${GIT_HASH}'
 UPX=1
 

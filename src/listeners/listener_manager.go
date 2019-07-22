@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/instance"
 )
 
 func NewIListenerManager(ctx context.Context) IListenerManager {

@@ -9,15 +9,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hr3lxphr6j/bililive-go/src/configs"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/parser"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/parser/ffmpeg"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/parser/native/flv"
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
-	"github.com/hr3lxphr6j/bililive-go/src/interfaces"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/events"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/utils"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/configs"
+	"github.com/xyjunco/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/interfaces"
+	"github.com/xyjunco/bililive-go/src/lib/events"
+	"github.com/xyjunco/bililive-go/src/lib/parser"
+	"github.com/xyjunco/bililive-go/src/lib/parser/ffmpeg"
+	"github.com/xyjunco/bililive-go/src/lib/parser/native/flv"
+	"github.com/xyjunco/bililive-go/src/lib/utils"
 )
 
 type Recorder struct {
@@ -61,8 +61,7 @@ func (r *Recorder) run() {
 			var (
 				platformName = utils.ReplaceIllegalChar(r.Live.GetPlatformCNName())
 				hostName     = utils.ReplaceIllegalChar(r.Live.GetCachedInfo().HostName)
-				roomName     = utils.ReplaceIllegalChar(r.Live.GetCachedInfo().RoomName)
-				fileName     = fmt.Sprintf("[%s][%s][%s].flv", time.Now().Format("2006-01-02 15-04-05"), hostName, roomName)
+				fileName     = fmt.Sprintf("%s_%s_%s.mp4", platformName, hostName, time.Now().Format("20060102_1504"))
 				outputPath   = filepath.Join(r.OutPutPath, platformName, hostName)
 				file         = filepath.Join(outputPath, fileName)
 				url          = urls[0]

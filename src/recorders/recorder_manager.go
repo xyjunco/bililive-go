@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/events"
-	"github.com/hr3lxphr6j/bililive-go/src/listeners"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/lib/events"
+	"github.com/xyjunco/bililive-go/src/listeners"
 )
 
 func NewIRecorderManager(ctx context.Context) IRecorderManager {

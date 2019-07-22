@@ -10,7 +10,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/instance"
 )
 
 type Server struct {

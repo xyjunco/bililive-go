@@ -11,11 +11,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/tidwall/gjson"
 
-	"github.com/hr3lxphr6j/bililive-go/src/api"
-	"github.com/hr3lxphr6j/bililive-go/src/consts"
-	"github.com/hr3lxphr6j/bililive-go/src/instance"
-	"github.com/hr3lxphr6j/bililive-go/src/listeners"
-	"github.com/hr3lxphr6j/bililive-go/src/recorders"
+	"github.com/xyjunco/bililive-go/src/api"
+	"github.com/xyjunco/bililive-go/src/consts"
+	"github.com/xyjunco/bililive-go/src/instance"
+	"github.com/xyjunco/bililive-go/src/listeners"
+	"github.com/xyjunco/bililive-go/src/recorders"
 )
 
 type CommonResp struct {

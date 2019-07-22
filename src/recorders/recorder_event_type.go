@@ -1,6 +1,6 @@
 package recorders
 
-import "github.com/hr3lxphr6j/bililive-go/src/lib/events"
+import "github.com/xyjunco/bililive-go/src/lib/events"
 
 const (
 	RecorderStart events.EventType = "RecorderStart"

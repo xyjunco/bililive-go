@@ -6,7 +6,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/hr3lxphr6j/bililive-go/src/lib/http"
+	"github.com/xyjunco/bililive-go/src/lib/http"
 )
 
 const yizhiboApiUrl = "http://www.yizhibo.com/live/h5api/get_basic_live_info"

@@ -7,23 +7,23 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/hr3lxphr6j/bililive-go/src/lib/utils"
+	"github.com/xyjunco/bililive-go/src/lib/utils"
 )
 
 type LiveId string
 
 var LivePlatformCNNameMap = map[string]string{
-	"live.bilibili.com": "哔哩哔哩",
-	"www.zhanqi.tv":     "战旗",
-	"www.douyu.com":     "斗鱼",
-	"star.longzhu.com":  "龙珠",
-	"www.huomao.com":    "火猫",
-	"www.yizhibo.com":   "一直播",
+	"live.bilibili.com": "bilibili",
+	"www.zhanqi.tv":     "zhanqi",
+	"www.douyu.com":     "douyu",
+	"star.longzhu.com":  "longzhu",
+	"www.huomao.com":    "huomao",
+	"www.yizhibo.com":   "yizhibo",
 	"www.twitch.tv":     "twitch",
-	"www.huya.com":      "虎牙",
-	"cc.163.com":        "CC直播",
+	"www.huya.com":      "huya",
+	"cc.163.com":        "163",
 	"www.openrec.tv":    "openrec",
-	"egame.qq.com":      "企鹅电竞",
+	"egame.qq.com":      "qq",
 }
 
 type Info struct {

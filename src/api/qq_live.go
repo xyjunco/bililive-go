@@ -8,7 +8,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/hr3lxphr6j/bililive-go/src/lib/http"
+	"github.com/xyjunco/bililive-go/src/lib/http"
 )
 
 var (

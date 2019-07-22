@@ -1,13 +1,13 @@
 # Bililive-go
-[![Build Status](https://travis-ci.org/hr3lxphr6j/bililive-go.svg?branch=master)](https://travis-ci.org/hr3lxphr6j/bililive-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hr3lxphr6j/bililive-go)](https://goreportcard.com/report/github.com/hr3lxphr6j/bililive-go)
-[![Github release](https://img.shields.io/github/release/hr3lxphr6j/bililive-go.svg)](https://github.com/hr3lxphr6j/bililive-go/releases/latest)
+[![Build Status](https://travis-ci.org/xyjunco/bililive-go.svg?branch=master)](https://travis-ci.org/xyjunco/bililive-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xyjunco/bililive-go)](https://goreportcard.com/report/github.com/xyjunco/bililive-go)
+[![Github release](https://img.shields.io/github/release/xyjunco/bililive-go.svg)](https://github.com/xyjunco/bililive-go/releases/latest)
 [![Docker Pulls](https://img.shields.io/docker/pulls/chigusa/bililive-go.svg)](https://hub.docker.com/r/chigusa/bililive-go/)
 [![Bilibili](https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80%E7%8E%8B%E8%80%81%E8%8F%8A%E5%BD%95%E6%92%AD%E7%BB%84-ebb8d0.svg)](https://space.bilibili.com/18578203/)
 
 Bililive-go是一个支持多种直播平台的直播录制工具，运行在 CLI 上   
 
-![image](https://github.com/hr3lxphr6j/bililive-go/raw/master/docs/screenshot.png)
+![image](https://github.com/xyjunco/bililive-go/raw/master/docs/screenshot.png)
 
 ## 支持网站
 
@@ -89,16 +89,16 @@ Bililive-go是一个支持多种直播平台的直播录制工具，运行在 CL
 
 ## 获取&编译
 ```
-$ go get github.com/hr3lxphr6j/bililive-go
-$ $GOPATH/src/github.com/hr3lxphr6j/bililive-go
+$ go get github.com/xyjunco/bililive-go
+$ $GOPATH/src/github.com/xyjunco/bililive-go
 $ make
 ```
 
 ## Wiki
-[Wiki](https://github.com/hr3lxphr6j/bililive-go/wiki)
+[Wiki](https://github.com/xyjunco/bililive-go/wiki)
 
 ## API
-[API doc](https://github.com/hr3lxphr6j/bililive-go/blob/master/docs/API.md)
+[API doc](https://github.com/xyjunco/bililive-go/blob/master/docs/API.md)
 
 ## 参考
 - [you-get](https://github.com/soimort/you-get)

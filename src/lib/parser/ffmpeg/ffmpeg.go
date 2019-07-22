@@ -29,7 +29,7 @@ func (p *Parser) ParseLiveStream(url *url.URL, file string) error {
 		"-i", url.String(),
 		"-c", "copy",
 		"-bsf:a", "aac_adtstoasc",
-		"-f", "flv",
+		"-f", "mp4",
 		file,
 	)
 	stdIn, err := p.cmd.StdinPipe()

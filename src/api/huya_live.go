@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hr3lxphr6j/bililive-go/src/lib/http"
-	"github.com/hr3lxphr6j/bililive-go/src/lib/utils"
+	"github.com/xyjunco/bililive-go/src/lib/http"
+	"github.com/xyjunco/bililive-go/src/lib/utils"
 )
 
 type HuYaLive struct {
